@@ -13,7 +13,6 @@ class Patrimony(BaseModel):
     price: int = randint(30, 120)
     rent: int = randint(30, 120)
     owner: Optional[PlayerUnit]
-    sold_out: bool = False
 
 
 class BoardDetails(BaseModel):
